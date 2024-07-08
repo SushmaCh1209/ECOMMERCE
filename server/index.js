@@ -24,4 +24,5 @@ async function StartServer(){
 const Testing(){
     return 0;
 } 
+Testing();
 StartServer()
