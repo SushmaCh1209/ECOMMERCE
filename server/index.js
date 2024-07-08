@@ -20,5 +20,8 @@ async function StartServer(){
     server.applyMiddleware({app});
     app.listen(port,()=>{console.log(`Server live at ${port}`)})
 
-}    
+}   
+const Testing(){
+    return 0;
+} 
 StartServer()
