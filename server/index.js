@@ -21,9 +21,5 @@ async function StartServer(){
     app.listen(port,()=>{console.log(`Server live at ${port}`)})
 
 }   
-const Testing(){
-    return 1;
-} 
-Testing();
 StartServer()
 
